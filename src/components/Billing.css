@@ -1,0 +1,13 @@
+.glow-on-hover:hover {
+  box-shadow: 0 0 10px #6633ee, 0 0 20px #6633ee, 0 0 30px #6633ee,
+    0 0 40px #6633ee;
+  border-radius: 0%; /* This will make the glow effect rounded */
+}
+
+.glow-on-hover {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.glow-on-hover:hover {
+  box-shadow: 0 0 15px 5px rgba(102, 51, 238, 1);
+}

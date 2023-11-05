@@ -1,0 +1,52 @@
+@keyframes spin_words {
+  10% {
+    transform: translateY(-131%);
+  }
+  25% {
+    transform: translateY(-119%);
+  }
+  35% {
+    transform: translateY(-231%);
+  }
+  50% {
+    transform: translateY(-219%);
+  }
+  60% {
+    transform: translateY(-331%);
+  }
+  75% {
+    transform: translateY(-319%);
+  }
+  85% {
+    transform: translateY(-431%);
+  }
+  100% {
+    transform: translateY(-419%);
+  }
+}
+
+.connect {
+  font-size: 2.9rem;
+  font-weight: 400;
+  height: 4rem;
+  overflow: hidden;
+}
+
+.connect span {
+  display: block;
+  height: 100%;
+  animation: spin_words 8s infinite;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 3s ease-in-out forwards;
+}
