@@ -1,14 +1,7 @@
 // src/App.js or src/App.jsx
 import React, { useEffect } from "react"; // Import useEffect
 import styles from "./style";
-import {
-  Business,
-
-  CTA,
-  Footer,
-  Navbar,
-  Hero,
-} from "./components";
+import { Business, CTA, Footer, Navbar, Hero } from "./components";
 
 const App = () => {
   // Place this code inside the react component
@@ -35,12 +28,7 @@ const App = () => {
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-  
           <Business />
-        
-    
-   
-         
 
           <Footer />
         </div>
