@@ -22,7 +22,6 @@ const Hero = () => {
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
-        
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
             The Next <br className="sm:block hidden" />{" "}
@@ -43,10 +42,11 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-          of Mentalcare.
+          of Medical care.
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Advancing mental wellness with personalized medical care solutions—private, empathetic, and at the forefront of emotional health.
+          Fostering mental wellness through personalized care solutions:
+          Private, empathetic, and at the forefront of emotional health.
         </p>
       </div>
 
@@ -67,8 +67,7 @@ const Hero = () => {
         {/* gradient end */}
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-      </div>
+      <div className={`ss:hidden ${styles.flexCenter}`}></div>
     </section>
   );
 };
